@@ -1,0 +1,12 @@
+package com.selenuimm;
+
+public class Login_Function {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\suren\\eclipse-workspace\\Surendran_Batch\\Driver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+    driver.get = "www.amazon.com";
+	}
+
+}
